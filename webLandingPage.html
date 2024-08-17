@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        header {
+            background-color: #4CAF50; /* Change header background color if needed */
+            color: white;
+            padding: 10px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold; /* Update the logo text here */
+        }
+
+        .nav-links {
+            list-style: none;
+        }
+
+        .nav-links li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        #hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px 20px;
+            background-color: #f4f4f4; /* Change hero section background color if needed */
+        }
+
+        .hero-content {
+            max-width: 600px;
+        }
+
+        .hero-content h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Change button color if needed */
+            color: white;
+            border: none;
+            text-decoration: none;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .hero-image {
+            max-width: 500px;
+            border-radius: 10px; /* Adjust image size and border-radius if needed */
+        }
+
+        /* Features Section */
+        #features {
+            padding: 50px 20px;
+            background-color: white; /* Change features section background color if needed */
+            text-align: center;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns if needed */
+            gap: 20px;
+        }
+
+        .feature-item {
+            background-color: #f4f4f4; /* Change feature item background color if needed */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .feature-item img {
+            max-width: 100%;
+            border-radius: 10px; /* Adjust image size and border-radius if needed */
+            margin-bottom: 15px;
+        }
+
+        /* Pricing Section */
+        #pricing {
+            padding: 50px 20px;
+            background-color: #e8e8e8; /* Change pricing section background color if needed */
+            text-align: center;
+        }
+
+        .pricing-table {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .pricing-option {
+            background-color: white; /* Change pricing option background color if needed */
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%; /* Adjust width of pricing options if needed */
+        }
+
+        .pricing-option h3 {
+            margin-bottom: 10px;
+        }
+
+        .pricing-option p {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .pricing-option ul {
+            list-style: none;
+        }
+
+        .pricing-option ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Contact Section */
+        #contact {
+            padding: 50px 20px;
+            background-color: white; /* Change contact section background color if needed */
+            text-align: center;
+        }
+
+        form {
+            display: inline-block;
+            text-align: left;
+            max-width: 400px; /* Adjust form width if needed */
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px; /* Adjust input and textarea styling if needed */
+        }
+
+        form button {
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Change button color if needed */
+            color: white;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333; /* Change footer background color if needed */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MyProduct</div> <!-- Change the logo text -->
+            <ul class="nav-links">
+                <li><a href="#features">Designs</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Welcome to Exclusive Prabhas T-Shirts: Wear Your Style, Embrace the Legend</h1> <!-- Update the hero section heading -->
+                <p>Your perfect solution for Customized T-Shirts</p> <!-- Update the hero section description -->
+                <a href="#features" class="cta-button">Learn More</a> <!-- Update the call-to-action button text -->
+            </div>
+            <img src="C:\Users\inthi\Downloads\OIP.jpg" alt="Prabhas" class="hero-image"> <!-- Replace 'prabhas.jpg' with your desired image -->
+        </section>
+
+        <section id="features">
+            <h2>Designs</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <img src="C:\Users\inthi\Downloads\OIP (1).jpg" alt="Feature 1"> <!-- Replace 'feature1.jpg' with your desired image -->
+                    <h3>Salaar X Aadhipurush</h3> <!-- Update the feature title -->
+                    <p>Prabhas's customized t-shirt</p> <!-- Update the feature description -->
+                </div>
+                <div class="feature-item">
+                    <img src= "C:\Users\inthi\Downloads\430948484_plain_white_polo_shirt_front_3d_mockupF7NcR4vaMAEsKSn.webp" alt="Feature 2"> <!-- Replace 'feature2.jpg' with your desired image -->
+                    <h3>Salaar</h3> <!-- Update the feature title -->
+                    <p>Salaar with sword</p> <!-- Update the feature description -->
+                </div>
+                <div class="feature-item">
+                    <img src= "C:\Users\inthi\Downloads\1030948484_plain_white_polo_shirt_front_3d_mockupsalaar_poster_work_by_sairapphael_dfrpjz0-pre.webp" alt="Feature 3"> <!-- Replace 'feature3.jpg' with your desired image -->
+                    <h3>Salaar</h3> <!-- Update the feature title -->
+                    <p>Prabhas fierce walking t-shirt</p> <!-- Update the feature description -->
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <h2>Pricing</h2>
+            <div class="pricing-table">
+                <div class="pricing-option">
+                    <h3>Basic</h3> <!-- Update the pricing plan name -->
+                    <p>$10/t-shirt</p> <!-- Update the pricing plan cost -->
+                    <ul>
+                        <li>Basic customization</li> <!-- Update pricing features -->
+                        <li>Buy 1 get 1</li>
+                    </ul>
+                </div>
+                <div class="pricing-option">
+                    <h3>Pro</h3> <!-- Update the pricing plan name -->
+                    <p>$20/t-shirt</p> <!-- Update the pricing plan cost -->
+                    <ul>
+                        <li>Pro customization as required</li> <!-- Update pricing features -->
+                        <li>Buy 1 get 2</li>
+                    </ul>
+                </div>
+                <div class="pricing-option">
+                    <h3>Enterprise</h3> <!-- Update the pricing plan name -->
+                    <p>$50/t-shirt</p> <!-- Update the pricing plan cost -->
+                    <ul>
+                        <li>Customized premium</li> <!-- Update pricing features -->
+                        <li>Buy 1 get 3</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2> <!-- Update the contact section heading -->
+            <form>
+                <label for="name">Name:</label> <!-- Update the form labels if needed -->
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button> <!-- Update the form button text -->
+            </form>
+        </section>
+    </main>
+
+    <
