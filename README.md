@@ -9,12 +9,18 @@ Product Features: Showcases three distinct T-shirt designs with accompanying des
 Pricing Plans: Offers a tiered pricing structure, catering to different customer needs, from basic customization to premium features.
 Contact Form: A simple and effective contact form allows users to reach out with inquiries or orders.
 Technologies Used:
+
+
 HTML5: For structuring the content.
 CSS3: For styling and layout design, including grid layouts and flexbox for responsive design.
+
+
 How to Use:
 Clone the repository to your local machine.
 Open index.html in your browser to view the landing page.
 Customize the images and content as needed by editing the HTML and CSS files.
+
+
 License:
 This project is open-source under the MIT License.
 
